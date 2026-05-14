@@ -1,0 +1,33 @@
+C21 · Crunch Droid — Android Engineering
+Copyright (C) 2026 Code Crunch Club and contributors.
+
+This curriculum, including all lecture notes, exercises, challenges, quizzes,
+homework, mini-projects, capstone specifications, and supporting documents
+in this directory and its subdirectories, is licensed under the
+GNU General Public License, version 3 (GPL-3.0).
+
+You are free to:
+
+  - copy, redistribute, and modify this curriculum,
+  - use it in commercial and non-commercial educational settings,
+  - publish derivative tracks based on it,
+
+provided that you:
+
+  - retain this copyright notice and license header,
+  - distribute derivative works under the same GPL-3.0 license,
+  - make the corresponding source of any derivative work available
+    to recipients on the same terms.
+
+The full text of the GNU General Public License, version 3, is available at:
+https://www.gnu.org/licenses/gpl-3.0.html
+
+A copy SHOULD also be distributed alongside this curriculum as `LICENSE.full`
+or referenced from the root of the repository in which this curriculum lives.
+
+This curriculum is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+for more details.
+
+Maintained by the Code Crunch Labs curriculum council.
