@@ -1,0 +1,118 @@
+# Challenge 1 — Baseline Profile, end to end (cut cold start ≥20%, prove it)
+
+**Time.** 60–120 minutes. **Requires a real physical device.**
+**Deliverable.** A short report (`PROFILE.md`) with the before/after macrobenchmark distributions (P50 and P90), the noise floor, the committed `baseline-prof.txt`, evidence ART used it, and the cold-start improvement (≥20% target).
+
+## The premise
+
+Every Android engineer eventually ships a Baseline Profile, because it's the single highest-leverage cold-start improvement available — 20–40% off the first impression, for free, once you generate and package it. The skill is not "know profiles exist." It's **run the whole loop on real hardware and prove the win is real:** measure the no-profile baseline as a distribution, generate a profile that covers the actual cold-start journey, package it, verify ART applied it, re-measure, and report the delta honestly against the noise floor. A win you can't quantify is a guess; a win measured once is half noise.
+
+You'll take an app with no Baseline Profile (the mini-project's reader app, or any Compose app you have with a list-then-detail flow), and run it end to end.
+
+## What to do
+
+### Step 1 — Stand up the `:benchmark` module and measure the "before"
+
+If you don't have one, create the `:benchmark` module (lecture 1, §2) targeting `:app`. Write the `StartupBenchmark` from exercise 2 and run it with `CompilationMode.None()` — the no-profile worst case:
+
+```kotlin
+@Test
+fun coldStartup_noProfile() = benchmarkRule.measureRepeated(
+    packageName = "com.crunch.reader",
+    metrics = listOf(StartupTimingMetric()),
+    iterations = 20,
+    startupMode = StartupMode.COLD,
+    compilationMode = CompilationMode.None()
+) {
+    pressHome()
+    startActivityAndWait()
+}
+```
+
+Run on a real device: `./gradlew :benchmark:connectedBenchmarkAndroidTest`. Record P50 and P90. **Run it twice** to establish the noise floor — the run-to-run spread of identical code. Write both down.
+
+### Step 2 — Establish the noise floor
+
+This is the step people skip and then over-claim. Run the *exact same* `None()` benchmark a second time. The difference between the two P50s is your noise floor. If they differ by 40ms, then any "improvement" under ~40ms is meaningless. Note it: "noise floor ≈ Xms over two identical runs." Your final claim must clear it.
+
+### Step 3 — Generate the Baseline Profile
+
+Add the `androidx.baselineprofile` plugin and a generator test that drives the cold-start journey — launch, then the first interaction that matters (scroll the list, open an item):
+
+```kotlin
+@RunWith(AndroidJUnit4::class)
+class BaselineProfileGenerator {
+    @get:Rule val rule = BaselineProfileRule()
+
+    @Test
+    fun generate() = rule.collect(
+        packageName = "com.crunch.reader",
+        includeInStartupProfile = true
+    ) {
+        pressHome()
+        startActivityAndWait()
+        // cover the journey the profile should AOT-compile:
+        device.findObject(By.res("article_list")).fling(Direction.DOWN)
+        device.waitForIdle()
+        device.findObject(By.res("article_item_0")).click()
+        device.waitForIdle()
+    }
+}
+```
+
+Run `./gradlew :app:generateBaselineProfile`. Confirm `app/src/release/generated/baselineProfiles/baseline-prof.txt` appears, and **commit it**. Open it — you should see `HSPL`-prefixed lines for your `MainActivity`, your screen composables, and the Compose runtime.
+
+### Step 4 — Package and verify
+
+Build the release with the profile packaged: `./gradlew :app:assembleRelease`. Unzip the APK/AAB and confirm `assets/dexopt/baseline.prof` exists. Install it, then verify ART used it:
+
+```bash
+adb shell dumpsys package com.crunch.reader | grep -A2 "Dexopt state"
+# look for a speed-profile / profile-based status
+```
+
+### Step 5 — Measure the "after"
+
+Run the benchmark with `CompilationMode.Partial(BaselineProfileMode.Require)` — the profile applied, and `Require` so it fails loudly if the profile didn't package:
+
+```kotlin
+@Test
+fun coldStartup_withProfile() = benchmarkRule.measureRepeated(
+    packageName = "com.crunch.reader",
+    metrics = listOf(StartupTimingMetric()),
+    iterations = 20,
+    startupMode = StartupMode.COLD,
+    compilationMode = CompilationMode.Partial(BaselineProfileMode.Require)
+) {
+    pressHome()
+    startActivityAndWait()
+}
+```
+
+Record P50 and P90. Same device, same iterations as the "before."
+
+### Step 6 — Report the delta honestly
+
+Compute the deltas (ms and %) for both P50 and P90. State the noise floor and confirm the delta exceeds it. If your improvement is under 20%, investigate (did the journey cover the startup path? did the profile actually package?) rather than padding the claim.
+
+## Acceptance criteria
+
+- [ ] The "before" (`CompilationMode.None()`) is measured over ≥20 iterations on a *named real device*, with P50 and P90 recorded.
+- [ ] The noise floor is established from two identical runs, and your final delta exceeds it.
+- [ ] A Baseline Profile is generated by driving the actual cold-start journey and `baseline-prof.txt` is **committed**.
+- [ ] The profile is packaged (`assets/dexopt/baseline.prof` present) and ART's use of it is verified (`dumpsys`).
+- [ ] The "after" (`CompilationMode.Partial(Require)`) is measured on the same device/iterations, P50 and P90 recorded.
+- [ ] `PROFILE.md` reports the before/after distributions, the noise floor, and the cold-start improvement — **≥20%** at P50 (or an honest explanation if not, with what you'd try next).
+- [ ] R8 is enabled on the release; build with **0 warnings**.
+
+## What "great" looks like
+
+A weak submission says "I added a Baseline Profile, cold start is faster." A great submission says:
+
+> On a Pixel 6a (Android 14), 20 iterations, `CompilationMode.None()` measured cold start (TTID) at P50 521ms / P90 612ms; a second identical run gave P50 533ms, so the noise floor is ≈12ms. I generated a Baseline Profile by driving launch → scroll the article list → open article 0, committed the 1,840-line `baseline-prof.txt`, and confirmed `assets/dexopt/baseline.prof` packaged into the release AAB; `dumpsys` reported `status=speed-profile`. With `CompilationMode.Partial(Require)`, cold start dropped to P50 342ms / P90 408ms — a 34% P50 improvement and 33% at P90, both an order of magnitude beyond the 12ms noise floor, so the win is real, not measurement scatter. The largest single contributor in the trace was the Compose runtime initialization, which the profile now AOT-compiles instead of JIT-ing on first launch.
+
+Quantified at both percentiles, the noise floor established and cleared, the profile committed and verified, and an honest note on *what* the profile compiled. That's the senior performance PR — and the exact shape of the capstone deliverable.
+
+## Where this reappears
+
+This is, almost verbatim, a **capstone deliverable**: "Baseline Profile generated, packaged, and demonstrated to reduce cold-start time by ≥20%" (Week 23). Doing it now on a small app is rehearsal for the thing you'll be graded on. The measure → generate → verify → re-measure loop is also exactly what Week 21 automates in CI (generate the profile and run the benchmark on every release), and the "report a distribution against a noise floor" discipline is the same one that made Week 17's tests deterministic — uncontrolled inputs ruin a benchmark and a test alike.
