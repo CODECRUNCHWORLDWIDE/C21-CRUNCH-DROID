@@ -1,1105 +1,540 @@
 {
   "repo": "C21-CRUNCH-DROID",
+  "updated": "2026-06-11T14:22:57-05:00",
   "files": [
-    {
-      "path": "00-overview.md",
-      "title": "C21 \u00b7 Crunch Droid \u2014 Android Engineering"
-    },
-    {
-      "path": "CODE_OF_CONDUCT.md",
-      "title": "Contributor Covenant Code of Conduct"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "title": "Contributing to Crunch Droid"
-    },
-    {
-      "path": "community/CHARTER.md",
-      "title": "C21 \u00b7 Crunch Droid \u2014 Charter"
-    },
-    {
-      "path": "curriculum/SYLLABUS.md",
-      "title": "C21 \u00b7 Crunch Droid \u2014 Syllabus"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/00-overview.md",
-      "title": "Week 01 \u2014 Kotlin 2.x as a first-class JVM language"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/01-resources.md",
-      "title": "Week 01 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/02-lecture-notes/01-kotlin-2x-and-the-k2-compiler.md",
-      "title": "Lecture 1 \u2014 Kotlin 2.x and the K2 compiler: what the language is, and what the bytecode proves"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/02-lecture-notes/02-equality-smart-casts-and-idiomatic-kotlin.md",
-      "title": "Lecture 2 \u2014 Equality, smart casts, and the idioms that separate Kotlin from translated Java"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/03-exercises/00-overview.md",
-      "title": "Week 01 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/03-exercises/exercise-01-read-the-bytecode.md",
-      "title": "Exercise 1 \u2014 Read the bytecode"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/04-challenges/00-overview.md",
-      "title": "Week 01 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/04-challenges/challenge-01-javaism-to-idiom.md",
-      "title": "Challenge 1 \u2014 From Javaism to idiom (with bytecode receipts)"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/05-quiz.md",
-      "title": "Week 01 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/06-homework.md",
-      "title": "Week 01 Homework"
-    },
-    {
-      "path": "curriculum/week-01-kotlin-2x-jvm-language/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `kt-stat`: a Gradle Kotlin DSL CLI"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/00-overview.md",
-      "title": "Week 02 \u2014 Null safety, sealed types, and the algebraic core"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/01-resources.md",
-      "title": "Week 02 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/02-lecture-notes/01-null-safety-and-the-platform-type-boundary.md",
-      "title": "Lecture 1 \u2014 Null safety and the platform-type boundary: where it holds, where it leaks"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/02-lecture-notes/02-sealed-types-data-classes-and-algebraic-modelling.md",
-      "title": "Lecture 2 \u2014 Sealed types, data classes, inline classes, and the algebraic core"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/03-exercises/00-overview.md",
-      "title": "Week 02 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/03-exercises/exercise-01-null-handling-and-platform-types.md",
-      "title": "Exercise 1 \u2014 Null handling and platform types"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/04-challenges/00-overview.md",
-      "title": "Week 02 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/04-challenges/challenge-01-model-the-illegal-away.md",
-      "title": "Challenge 1 \u2014 Model the illegal away (so the bad state won't compile)"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/05-quiz.md",
-      "title": "Week 02 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/06-homework.md",
-      "title": "Week 02 Homework"
-    },
-    {
-      "path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A typed JSON parser with a sealed `JsonNode` tree"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/00-overview.md",
-      "title": "Week 03 \u2014 Generics, inline functions, context receivers"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/01-resources.md",
-      "title": "Week 03 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/02-lecture-notes/01-generics-variance-erasure.md",
-      "title": "Lecture 1 \u2014 Generics, variance, and type erasure"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/02-lecture-notes/02-inline-reified-context-receivers.md",
-      "title": "Lecture 2 \u2014 Inline functions, reified types, and context receivers"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/03-exercises/00-overview.md",
-      "title": "Week 03 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/03-exercises/exercise-01-variance-and-projections.md",
-      "title": "Exercise 1 \u2014 Variance and projections"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/04-challenges/00-overview.md",
-      "title": "Week 03 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/04-challenges/challenge-01-type-safe-dsl-builder.md",
-      "title": "Challenge 1 \u2014 A type-safe DSL builder (receiver lambdas, `@DslMarker`, reified)"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/05-quiz.md",
-      "title": "Week 03 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/06-homework.md",
-      "title": "Week 03 Homework"
-    },
-    {
-      "path": "curriculum/week-03-generics-inline-functions-context-receivers/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `kt-bus`: a typed event bus published to `mavenLocal`"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/00-overview.md",
-      "title": "Week 04 \u2014 Coroutines: structured concurrency from first principles"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/01-resources.md",
-      "title": "Week 04 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/02-lecture-notes/01-suspend-continuations-and-the-state-machine.md",
-      "title": "Lecture 1 \u2014 Suspend, continuations, and the state machine: what a coroutine actually is"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/02-lecture-notes/02-cancellation-supervision-and-exceptions.md",
-      "title": "Lecture 2 \u2014 Cancellation, supervision, and the exceptions that ship to users"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/03-exercises/00-overview.md",
-      "title": "Week 04 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/03-exercises/exercise-01-disassemble-a-suspend-function.md",
-      "title": "Exercise 1 \u2014 Disassemble a suspend function"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/04-challenges/00-overview.md",
-      "title": "Week 04 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/04-challenges/challenge-01-cancellation-bug-hunt.md",
-      "title": "Challenge 1 \u2014 The cancellation bug hunt (find, explain, fix, prove)"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/05-quiz.md",
-      "title": "Week 04 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/06-homework.md",
-      "title": "Week 04 Homework"
-    },
-    {
-      "path": "curriculum/week-04-coroutines-structured-concurrency/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A bounded, cancellable parallel downloader"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/00-overview.md",
-      "title": "Week 05 \u2014 Flow, StateFlow, SharedFlow, channels"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/01-resources.md",
-      "title": "Week 05 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/02-lecture-notes/01-cold-flows-operators-and-backpressure.md",
-      "title": "Lecture 1 \u2014 Cold flows, the operator catalogue, and backpressure"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/02-lecture-notes/02-hot-flows-channels-and-callback-bridges.md",
-      "title": "Lecture 2 \u2014 Hot flows, channels, callback bridges, and the cold-vs-hot footguns"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/03-exercises/00-overview.md",
-      "title": "Week 05 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/03-exercises/exercise-01-cold-is-lazy-and-per-collector.md",
-      "title": "Exercise 1 \u2014 Cold is lazy and per-collector"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/04-challenges/00-overview.md",
-      "title": "Week 05 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/04-challenges/challenge-01-event-replay-bug.md",
-      "title": "Challenge 1 \u2014 The event-replay bug (reproduce, explain, fix)"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/05-quiz.md",
-      "title": "Week 05 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/06-homework.md",
-      "title": "Week 05 Homework"
-    },
-    {
-      "path": "curriculum/week-05-flow-stateflow-sharedflow-channels/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A reactive ticker: cold timestamps, hot deltas, threshold alerts"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/00-overview.md",
-      "title": "Week 06 \u2014 The Android runtime, ART, Gradle, and an AOSP-aware mental model"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/01-resources.md",
-      "title": "Week 06 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/02-lecture-notes/01-art-runtime-process-lifecycle.md",
-      "title": "Lecture 1 \u2014 ART, the process model, and the lifecycle as history"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/02-lecture-notes/02-gradle-build-pipeline-variants-r8.md",
-      "title": "Lecture 2 \u2014 The build pipeline, Gradle Kotlin DSL, variants, and R8"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/03-exercises/00-overview.md",
-      "title": "Week 06 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/03-exercises/exercise-01-trace-the-build.md",
-      "title": "Exercise 1 \u2014 Trace the build, then crack open the APK"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/04-challenges/00-overview.md",
-      "title": "Week 06 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/04-challenges/challenge-01-debug-a-broken-build.md",
-      "title": "Challenge 1 \u2014 Debug a broken build (four failures, four stages)"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/05-quiz.md",
-      "title": "Week 06 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/06-homework.md",
-      "title": "Week 06 Homework"
-    },
-    {
-      "path": "curriculum/week-06-android-runtime-art-gradle-aosp/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Two-module Android project: `:core` + `:app`, version catalog, `free`/`pro`"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/00-overview.md",
-      "title": "Week 07 \u2014 Jetpack Compose: composition, recomposition, the three phases"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/01-resources.md",
-      "title": "Week 07 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/02-lecture-notes/01-declarative-ui-composition-recomposition.md",
-      "title": "Lecture 1 \u2014 Declarative UI: composition, recomposition, and the three phases"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/02-lecture-notes/02-stability-skippability-compiler-report.md",
-      "title": "Lecture 2 \u2014 Stability, skippability, and the Compose Compiler report"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/03-exercises/00-overview.md",
-      "title": "Week 07 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/03-exercises/exercise-01-trace-recomposition-scope.md",
-      "title": "Exercise 1 \u2014 Trace a recomposition scope"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/04-challenges/00-overview.md",
-      "title": "Week 07 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/04-challenges/challenge-01-recomposition-footgun-then-fix.md",
-      "title": "Challenge 1 \u2014 Plant a recomposition footgun, then fix it (with the report)"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/05-quiz.md",
-      "title": "Week 07 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/06-homework.md",
-      "title": "Week 07 Homework"
-    },
-    {
-      "path": "curriculum/week-07-jetpack-compose-composition-recomposition/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Pomodoro: a pure-Compose timer that recomposes the minimum"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/00-overview.md",
-      "title": "Week 08 \u2014 State, side effects, snapshots"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/01-resources.md",
-      "title": "Week 08 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/02-lecture-notes/01-snapshot-state-remember-saveable.md",
-      "title": "Lecture 1 \u2014 Snapshot state, `remember`, and surviving the lifecycle"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/02-lecture-notes/02-side-effects-derivedstate-snapshotflow.md",
-      "title": "Lecture 2 \u2014 Side effects, `derivedStateOf`, and bridging to Flow with `snapshotFlow`"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/03-exercises/00-overview.md",
-      "title": "Week 08 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/03-exercises/exercise-01-hoist-and-survive-rotation.md",
-      "title": "Exercise 1 \u2014 Hoist state, then survive rotation"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/04-challenges/00-overview.md",
-      "title": "Week 08 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/04-challenges/challenge-01-effect-footgun-then-fix.md",
-      "title": "Challenge 1 \u2014 Plant the effect footguns, then fix them (with logcat)"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/05-quiz.md",
-      "title": "Week 08 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/06-homework.md",
-      "title": "Week 08 Homework"
-    },
-    {
-      "path": "curriculum/week-08-state-side-effects-snapshots/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Search-as-you-type: debounced, cancellation-correct, rotation-proof"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/00-overview.md",
-      "title": "Week 09 \u2014 Layout, gestures, animation, accessibility"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/01-resources.md",
-      "title": "Week 09 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/02-lecture-notes/01-custom-layout-modifiers-gestures.md",
-      "title": "Lecture 1 \u2014 Custom layout, the modifier pipeline, and gestures"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/02-lecture-notes/02-animation-semantics-accessibility.md",
-      "title": "Lecture 2 \u2014 Animation, semantics, and accessibility"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/03-exercises/00-overview.md",
-      "title": "Week 09 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/03-exercises/exercise-01-modifier-order-and-custom-layout.md",
-      "title": "Exercise 1 \u2014 Modifier order, then a custom flow layout"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/04-challenges/00-overview.md",
-      "title": "Week 09 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/04-challenges/challenge-01-inaccessible-then-fixed.md",
-      "title": "Challenge 1 \u2014 Make an inaccessible component accessible (and prove it)"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/05-quiz.md",
-      "title": "Week 09 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/06-homework.md",
-      "title": "Week 09 Homework"
-    },
-    {
-      "path": "curriculum/week-09-layout-gestures-animation-accessibility/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Swipe-to-dismiss card stack: elastic, springy, accessible"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/00-overview.md",
-      "title": "Week 10 \u2014 Navigation 3 with type-safe routes"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/01-resources.md",
-      "title": "Week 10 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/02-lecture-notes/01-navigation-3-routes-as-types.md",
-      "title": "Lecture 1 \u2014 Navigation 3: routes as types, and the back stack you own"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/02-lecture-notes/02-nested-graphs-deep-links-predictive-back.md",
-      "title": "Lecture 2 \u2014 Nested graphs, per-tab back stacks, deep links, and predictive back"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/03-exercises/00-overview.md",
-      "title": "Week 10 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/03-exercises/exercise-01-string-routes-to-typed-routes.md",
-      "title": "Exercise 1 \u2014 String routes to typed routes"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/04-challenges/00-overview.md",
-      "title": "Week 10 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/04-challenges/challenge-01-string-route-footgun-then-typed.md",
-      "title": "Challenge 1 \u2014 Plant a string-route footgun, then make it a compile error"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/05-quiz.md",
-      "title": "Week 10 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/06-homework.md",
-      "title": "Week 10 Homework"
-    },
-    {
-      "path": "curriculum/week-10-navigation-3-type-safe-routes/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Catalog Companion: typed navigation, end to end"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/00-overview.md",
-      "title": "Week 11 \u2014 Material 3, Material You, dynamic color, edge-to-edge"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/01-resources.md",
-      "title": "Week 11 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/02-lecture-notes/01-material-3-color-roles-and-dynamic-color.md",
-      "title": "Lecture 1 \u2014 Material 3: color as a role, and dynamic color with a fallback"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/02-lecture-notes/02-edge-to-edge-insets-dark-theme-contrast.md",
-      "title": "Lecture 2 \u2014 Edge-to-edge, window insets, dark theme, and a contrast audit you can defend"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/03-exercises/00-overview.md",
-      "title": "Week 11 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/03-exercises/exercise-01-theme-with-color-roles.md",
-      "title": "Exercise 1 \u2014 Theme with color roles"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/04-challenges/00-overview.md",
-      "title": "Week 11 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/04-challenges/challenge-01-contrast-audit-then-fix.md",
-      "title": "Challenge 1 \u2014 Audit a theme for contrast, then fix the failing pair (with the math)"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/05-quiz.md",
-      "title": "Week 11 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/06-homework.md",
-      "title": "Week 11 Homework"
-    },
-    {
-      "path": "curriculum/week-11-material-3-material-you-dynamic-color/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Pocket Reader: a fully themed Material 3 app"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/00-overview.md",
-      "title": "Week 12 \u2014 MVVM, UDF, the Now-In-Android pattern"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/01-resources.md",
-      "title": "Week 12 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/02-lecture-notes/01-mvvm-udf-and-uistate.md",
-      "title": "Lecture 1 \u2014 MVVM with UDF: state down, events up, one source of truth"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/02-lecture-notes/02-now-in-android-layers-savedstate-process-death.md",
-      "title": "Lecture 2 \u2014 The Now-In-Android layers, deriving state, SavedStateHandle, and surviving process death"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/03-exercises/00-overview.md",
-      "title": "Week 12 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/03-exercises/exercise-01-uistate-sealed-type.md",
-      "title": "Exercise 1 \u2014 `UiState` as a sealed type"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/04-challenges/00-overview.md",
-      "title": "Week 12 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/04-challenges/challenge-01-process-death-bug-then-fix.md",
-      "title": "Challenge 1 \u2014 Plant a \"lost on process death\" bug, then fix it (and prove it)"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/05-quiz.md",
-      "title": "Week 12 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/06-homework.md",
-      "title": "Week 12 Homework"
-    },
-    {
-      "path": "curriculum/week-12-mvvm-udf-now-in-android/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 News Feed: a ViewModel-driven, Now-In-Android-shaped app"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/00-overview.md",
-      "title": "Week 13 \u2014 Dependency injection with Hilt (and the Dagger graph beneath)"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/01-resources.md",
-      "title": "Week 13 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/02-lecture-notes/01-hilt-as-a-dagger-overlay.md",
-      "title": "Lecture 1 \u2014 Hilt as a Dagger overlay: what it solves, and what it still hides"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/02-lecture-notes/02-scopes-qualifiers-assisted-and-multi-module.md",
-      "title": "Lecture 2 \u2014 Scopes, qualifiers, assisted injection, and the multi-module graph"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/03-exercises/00-overview.md",
-      "title": "Week 13 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/03-exercises/exercise-01-annotate-an-app-for-hilt.md",
-      "title": "Exercise 1 \u2014 Annotate a hand-wired app for Hilt"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/04-challenges/00-overview.md",
-      "title": "Week 13 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/04-challenges/challenge-01-servicelocator-to-hilt.md",
-      "title": "Challenge 1 \u2014 Migrate a ServiceLocator god-object to a Hilt graph"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/05-quiz.md",
-      "title": "Week 13 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/06-homework.md",
-      "title": "Week 13 Homework"
-    },
-    {
-      "path": "curriculum/week-13-dependency-injection-hilt-dagger/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The four-module Hilt graph"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/00-overview.md",
-      "title": "Week 14 \u2014 Persistence: Room, DataStore, the file system"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/01-resources.md",
-      "title": "Week 14 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/02-lecture-notes/01-room-and-the-sqlite-lineage.md",
-      "title": "Lecture 1 \u2014 Room and the SQLite lineage: what it solves, and what it still hides"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/02-lecture-notes/02-datastore-filesystem-migrations-footguns.md",
-      "title": "Lecture 2 \u2014 DataStore, the file system, migrations, and the footguns that ship to users"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/03-exercises/00-overview.md",
-      "title": "Week 14 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/03-exercises/exercise-01-entity-dao-survives-relaunch.md",
-      "title": "Exercise 1 \u2014 An Entity/DAO/Database that survives relaunch"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/04-challenges/00-overview.md",
-      "title": "Week 14 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/04-challenges/challenge-01-footgun-then-refactor.md",
-      "title": "Challenge 1 \u2014 Plant a Room footgun, then refactor it (with numbers)"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/05-quiz.md",
-      "title": "Week 14 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/06-homework.md",
-      "title": "Week 14 Homework"
-    },
-    {
-      "path": "curriculum/week-14-persistence-room-datastore-filesystem/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Local-first notes app: Room, Proto DataStore, scoped storage"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/00-overview.md",
-      "title": "Week 15 \u2014 Networking: Retrofit, OkHttp, Ktor Client, gRPC"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/01-resources.md",
-      "title": "Week 15 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/02-lecture-notes/01-retrofit-okhttp-and-the-network-result.md",
-      "title": "Lecture 1 \u2014 Retrofit over OkHttp, and modelling every failure as a type"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/02-lecture-notes/02-pinning-ktor-grpc-and-choosing-a-stack.md",
-      "title": "Lecture 2 \u2014 Certificate pinning, Ktor, gRPC, and choosing a stack"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/03-exercises/00-overview.md",
-      "title": "Week 15 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/03-exercises/exercise-01-retrofit-service-and-interceptors.md",
-      "title": "Exercise 1 \u2014 A Retrofit service with interceptors"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/04-challenges/00-overview.md",
-      "title": "Week 15 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/04-challenges/challenge-01-footgun-then-refactor.md",
-      "title": "Challenge 1 \u2014 Plant a retry-storm footgun, then refactor it (with numbers)"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/05-quiz.md",
-      "title": "Week 15 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/06-homework.md",
-      "title": "Week 15 Homework"
-    },
-    {
-      "path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The weather client, implemented twice (Retrofit and Ktor)"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/00-overview.md",
-      "title": "Week 16 \u2014 Background work: WorkManager, foreground services, exact alarms"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/01-resources.md",
-      "title": "Week 16 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/02-lecture-notes/01-workmanager-constraints-backoff.md",
-      "title": "Lecture 1 \u2014 WorkManager: constraints, backoff, and \"why your work did not run\""
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/02-lecture-notes/02-foreground-services-exact-alarms-doze.md",
-      "title": "Lecture 2 \u2014 Foreground services, exact alarms, Doze, and the \"which tool\" decision"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/03-exercises/00-overview.md",
-      "title": "Week 16 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/03-exercises/exercise-01-constraints-and-backoff.md",
-      "title": "Exercise 1 \u2014 Constraints and backoff, made visible"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/04-challenges/00-overview.md",
-      "title": "Week 16 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/04-challenges/challenge-01-why-did-my-work-not-run.md",
-      "title": "Challenge 1 \u2014 \"Why did my work not run?\" (four scenarios, four causes)"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/05-quiz.md",
-      "title": "Week 16 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/06-homework.md",
-      "title": "Week 16 Homework"
-    },
-    {
-      "path": "curriculum/week-16-background-work-workmanager-foreground-services/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 An offline-first sync engine"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/00-overview.md",
-      "title": "Week 17 \u2014 Testing across every layer"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/01-resources.md",
-      "title": "Week 17 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/02-lecture-notes/01-the-testing-pyramid-unit-flow-mockk.md",
-      "title": "Lecture 1 \u2014 The testing pyramid, JUnit 5, Flow, and MockK"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/02-lecture-notes/02-robolectric-compose-ui-screenshot-espresso.md",
-      "title": "Lecture 2 \u2014 Robolectric, Compose UI test, screenshots, and Espresso"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/03-exercises/00-overview.md",
-      "title": "Week 17 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/03-exercises/exercise-01-pick-the-right-test.md",
-      "title": "Exercise 1 \u2014 Pick the right test"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/04-challenges/00-overview.md",
-      "title": "Week 17 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/04-challenges/challenge-01-flaky-test-autopsy.md",
-      "title": "Challenge 1 \u2014 Flaky-test autopsy (find the non-determinism, kill it)"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/05-quiz.md",
-      "title": "Week 17 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/06-homework.md",
-      "title": "Week 17 Homework"
-    },
-    {
-      "path": "curriculum/week-17-testing-across-every-layer/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `:feature-checkout`, tested at every layer"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/00-overview.md",
-      "title": "Week 18 \u2014 Performance: macrobenchmark, Baseline Profiles, R8"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/01-resources.md",
-      "title": "Week 18 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/02-lecture-notes/01-cold-start-macrobenchmark-baseline-profiles.md",
-      "title": "Lecture 1 \u2014 Cold start, Macrobenchmark, and Baseline Profiles"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/02-lecture-notes/02-r8-keep-rules-startup-strictmode.md",
-      "title": "Lecture 2 \u2014 R8, keep rules, App Startup, and StrictMode"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/03-exercises/00-overview.md",
-      "title": "Week 18 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/03-exercises/exercise-01-read-a-macrobenchmark-report.md",
-      "title": "Exercise 1 \u2014 Read a macrobenchmark report"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/04-challenges/00-overview.md",
-      "title": "Week 18 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/04-challenges/challenge-01-baseline-profile-end-to-end.md",
-      "title": "Challenge 1 \u2014 Baseline Profile, end to end (cut cold start \u226520%, prove it)"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/05-quiz.md",
-      "title": "Week 18 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/06-homework.md",
-      "title": "Week 18 Homework"
-    },
-    {
-      "path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Profile the reader app's cold start, prove the win"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/00-overview.md",
-      "title": "Week 19 \u2014 Kotlin Multiplatform overview, Wear OS introduction"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/01-resources.md",
-      "title": "Week 19 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/02-lecture-notes/01-kotlin-multiplatform-shared-core.md",
-      "title": "Lecture 1 \u2014 Kotlin Multiplatform: the shared core"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/02-lecture-notes/02-compose-for-wear-os-intro.md",
-      "title": "Lecture 2 \u2014 Compose for Wear OS: the wrist is a different screen"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/03-exercises/00-overview.md",
-      "title": "Week 19 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/03-exercises/exercise-01-what-to-share.md",
-      "title": "Exercise 1 \u2014 What to share"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/04-challenges/00-overview.md",
-      "title": "Week 19 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/04-challenges/challenge-01-shared-core-two-platforms.md",
-      "title": "Challenge 1 \u2014 A shared core that compiles for two platforms (prove it)"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/05-quiz.md",
-      "title": "Week 19 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/06-homework.md",
-      "title": "Week 19 Homework"
-    },
-    {
-      "path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 `:shared-core` KMP + Android consumer + a Wear forecast screen"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/00-overview.md",
-      "title": "Week 20 \u2014 Multi-form-factor: foldables, Wear OS deep, TV and Automotive overview"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/01-resources.md",
-      "title": "Week 20 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/02-lecture-notes/01-adaptive-layouts-window-size-classes-foldables.md",
-      "title": "Lecture 1 \u2014 Adaptive layouts: window size classes and foldables"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/02-lecture-notes/02-wear-os-deep-tiles-complications-tv-automotive.md",
-      "title": "Lecture 2 \u2014 Wear OS deep, and the TV / Automotive boundary"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/03-exercises/00-overview.md",
-      "title": "Week 20 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/03-exercises/exercise-01-window-size-class-adaptive-layout.md",
-      "title": "Exercise 1 \u2014 Window-size-class adaptive layout"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/04-challenges/00-overview.md",
-      "title": "Week 20 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/04-challenges/challenge-01-one-codebase-three-form-factors.md",
-      "title": "Challenge 1 \u2014 One codebase, three form factors"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/05-quiz.md",
-      "title": "Week 20 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/06-homework.md",
-      "title": "Week 20 Homework"
-    },
-    {
-      "path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Wear OS weather companion: tile, complication, ongoing activity"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/00-overview.md",
-      "title": "Week 21 \u2014 CI/CD: GitHub Actions, fastlane, Play Console API"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/01-resources.md",
-      "title": "Week 21 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/02-lecture-notes/01-github-actions-caching-signing-secrets.md",
-      "title": "Lecture 1 \u2014 GitHub Actions for Android: caching, signing, secrets"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/02-lecture-notes/02-fastlane-play-console-api-tracks-rollout.md",
-      "title": "Lecture 2 \u2014 fastlane, the Play Console API, tracks, and staged rollout"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/03-exercises/00-overview.md",
-      "title": "Week 21 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/03-exercises/exercise-01-android-ci-workflow.md",
-      "title": "Exercise 1 \u2014 An Android CI workflow with caching"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/04-challenges/00-overview.md",
-      "title": "Week 21 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/04-challenges/challenge-01-tag-to-internal-track-pipeline.md",
-      "title": "Challenge 1 \u2014 The tag-to-internal-track pipeline"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/05-quiz.md",
-      "title": "Week 21 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/06-homework.md",
-      "title": "Week 21 Homework"
-    },
-    {
-      "path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The release workflow: tag to internal track"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/00-overview.md",
-      "title": "Week 22 \u2014 Security: Keystore, EncryptedSharedPreferences, certificate pinning, Play Integrity"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/01-resources.md",
-      "title": "Week 22 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/02-lecture-notes/01-keystore-encrypted-storage-data-at-rest.md",
-      "title": "Lecture 1 \u2014 The Keystore, encrypted storage, and the data-at-rest threat model"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/02-lecture-notes/02-certificate-pinning-network-security-play-integrity.md",
-      "title": "Lecture 2 \u2014 Certificate pinning, network security config, and Play Integrity"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/03-exercises/00-overview.md",
-      "title": "Week 22 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/03-exercises/exercise-01-encrypt-a-token-keystore.md",
-      "title": "Exercise 1 \u2014 Encrypt a token with the Keystore"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/04-challenges/00-overview.md",
-      "title": "Week 22 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/04-challenges/challenge-01-threat-model-and-harden.md",
-      "title": "Challenge 1 \u2014 Threat-model and harden a feature"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/05-quiz.md",
-      "title": "Week 22 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/06-homework.md",
-      "title": "Week 22 Homework"
-    },
-    {
-      "path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Harden three apps: encrypt, pin, attest"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/00-overview.md",
-      "title": "Week 23 \u2014 Capstone build week: Field-Force Companion"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/01-resources.md",
-      "title": "Week 23 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/02-lecture-notes/01-from-lab-modules-to-a-release-candidate.md",
-      "title": "Lecture 1 \u2014 From lab modules to a release candidate"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/02-lecture-notes/02-wiring-the-form-factors-and-the-release-candidate.md",
-      "title": "Lecture 2 \u2014 Wiring the form factors and the release candidate"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/03-exercises/00-overview.md",
-      "title": "Week 23 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/03-exercises/exercise-01-module-graph-and-dependency-directions.md",
-      "title": "Exercise 1 \u2014 The module graph and dependency directions"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/04-challenges/00-overview.md",
-      "title": "Week 23 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/04-challenges/challenge-01-lock-the-release-candidate.md",
-      "title": "Challenge 1 \u2014 Lock the release candidate"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/05-quiz.md",
-      "title": "Week 23 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/06-homework.md",
-      "title": "Week 23 Homework"
-    },
-    {
-      "path": "curriculum/week-23-capstone-build-field-force-companion/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The Capstone Build: the Field-Force Companion to a locked RC"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/00-overview.md",
-      "title": "Week 24 \u2014 Capstone polish, chaos drill, Play submission, interview prep"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/01-resources.md",
-      "title": "Week 24 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/02-lecture-notes/01-play-submission-and-shipping-to-the-closed-track.md",
-      "title": "Lecture 1 \u2014 Play submission and shipping to the closed track"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/02-lecture-notes/02-the-chaos-drills-the-postmortem-and-the-interview.md",
-      "title": "Lecture 2 \u2014 The chaos drills, the postmortem, and the interview"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/03-exercises/00-overview.md",
-      "title": "Week 24 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/03-exercises/exercise-01-play-review-readiness-audit.md",
-      "title": "Exercise 1 \u2014 Play review readiness audit"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/04-challenges/00-overview.md",
-      "title": "Week 24 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/04-challenges/challenge-01-ship-survive-and-interview.md",
-      "title": "Challenge 1 \u2014 Ship, survive, and interview"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/05-quiz.md",
-      "title": "Week 24 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/06-homework.md",
-      "title": "Week 24 Homework"
-    },
-    {
-      "path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 The Capstone Delivery: Ship, Survive, Present, Interview"
-    },
-    {
-      "path": "projects/capstone/00-overview.md",
-      "title": "Capstone Project \u2014 Master Guide"
-    },
-    {
-      "path": "resources/setup-guides/00-overview.md",
-      "title": "Setup Guides"
-    },
-    {
-      "path": "resources/setup-guides/browser.md",
-      "title": "Browser-Based Setup (No Install)"
-    },
-    {
-      "path": "resources/setup-guides/linux.md",
-      "title": "Linux Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/macos.md",
-      "title": "macOS Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/windows.md",
-      "title": "Windows Setup Guide"
-    }
+    {"path": "._CHARTER.md", "title": ". CHARTER"},
+    {"path": "._README.md", "title": ". README"},
+    {"path": "._SYLLABUS.md", "title": ". SYLLABUS"},
+    {"path": "CHARTER.md", "title": "C21 · Crunch Droid — Charter"},
+    {"path": "README.md", "title": "C21 · Crunch Droid — Android Engineering"},
+    {"path": "SYLLABUS.md", "title": "C21 · Crunch Droid — Syllabus"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/README.md", "title": "Week 01 — Kotlin 2.x as a first-class JVM language"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/challenges/._challenge-01-javaism-to-idiom.md", "title": ". challenge 01 javaism to idiom"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/challenges/README.md", "title": "Week 01 — Challenges"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/challenges/challenge-01-javaism-to-idiom.md", "title": "Challenge 1 — From Javaism to idiom (with bytecode receipts)"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/exercises/._exercise-01-read-the-bytecode.md", "title": ". exercise 01 read the bytecode"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/exercises/README.md", "title": "Week 01 — Exercises"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/exercises/exercise-01-read-the-bytecode.md", "title": "Exercise 1 — Read the bytecode"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/homework.md", "title": "Week 01 Homework"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/lecture-notes/._01-kotlin-2x-and-the-k2-compiler.md", "title": ". 01 kotlin 2x and the k2 compiler"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/lecture-notes/._02-equality-smart-casts-and-idiomatic-kotlin.md", "title": ". 02 equality smart casts and idiomatic kotlin"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/lecture-notes/01-kotlin-2x-and-the-k2-compiler.md", "title": "Lecture 1 — Kotlin 2.x and the K2 compiler: what the language is, and what the bytecode proves"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/lecture-notes/02-equality-smart-casts-and-idiomatic-kotlin.md", "title": "Lecture 2 — Equality, smart casts, and the idioms that separate Kotlin from translated Java"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/mini-project/README.md", "title": "Mini-Project — `kt-stat`: a Gradle Kotlin DSL CLI"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/quiz.md", "title": "Week 01 — Quiz"},
+    {"path": "curriculum/week-01-kotlin-2x-jvm-language/resources.md", "title": "Week 01 — Resources"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/README.md", "title": "Week 02 — Null safety, sealed types, and the algebraic core"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/challenges/._challenge-01-model-the-illegal-away.md", "title": ". challenge 01 model the illegal away"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/challenges/README.md", "title": "Week 02 — Challenges"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/challenges/challenge-01-model-the-illegal-away.md", "title": "Challenge 1 — Model the illegal away (so the bad state won't compile)"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/exercises/._exercise-01-null-handling-and-platform-types.md", "title": ". exercise 01 null handling and platform types"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/exercises/README.md", "title": "Week 02 — Exercises"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/exercises/exercise-01-null-handling-and-platform-types.md", "title": "Exercise 1 — Null handling and platform types"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/homework.md", "title": "Week 02 Homework"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/lecture-notes/._01-null-safety-and-the-platform-type-boundary.md", "title": ". 01 null safety and the platform type boundary"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/lecture-notes/._02-sealed-types-data-classes-and-algebraic-modelling.md", "title": ". 02 sealed types data classes and algebraic modelling"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/lecture-notes/01-null-safety-and-the-platform-type-boundary.md", "title": "Lecture 1 — Null safety and the platform-type boundary: where it holds, where it leaks"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/lecture-notes/02-sealed-types-data-classes-and-algebraic-modelling.md", "title": "Lecture 2 — Sealed types, data classes, inline classes, and the algebraic core"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/mini-project/README.md", "title": "Mini-Project — A typed JSON parser with a sealed `JsonNode` tree"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/quiz.md", "title": "Week 02 — Quiz"},
+    {"path": "curriculum/week-02-null-safety-sealed-types-algebraic-core/resources.md", "title": "Week 02 — Resources"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/README.md", "title": "Week 03 — Generics, inline functions, context receivers"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/challenges/._challenge-01-type-safe-dsl-builder.md", "title": ". challenge 01 type safe dsl builder"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/challenges/README.md", "title": "Week 03 — Challenges"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/challenges/challenge-01-type-safe-dsl-builder.md", "title": "Challenge 1 — A type-safe DSL builder (receiver lambdas, `@DslMarker`, reified)"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/exercises/._exercise-01-variance-and-projections.md", "title": ". exercise 01 variance and projections"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/exercises/README.md", "title": "Week 03 — Exercises"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/exercises/exercise-01-variance-and-projections.md", "title": "Exercise 1 — Variance and projections"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/homework.md", "title": "Week 03 Homework"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/lecture-notes/._01-generics-variance-erasure.md", "title": ". 01 generics variance erasure"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/lecture-notes/._02-inline-reified-context-receivers.md", "title": ". 02 inline reified context receivers"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/lecture-notes/01-generics-variance-erasure.md", "title": "Lecture 1 — Generics, variance, and type erasure"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/lecture-notes/02-inline-reified-context-receivers.md", "title": "Lecture 2 — Inline functions, reified types, and context receivers"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/mini-project/README.md", "title": "Mini-Project — `kt-bus`: a typed event bus published to `mavenLocal`"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/quiz.md", "title": "Week 03 — Quiz"},
+    {"path": "curriculum/week-03-generics-inline-functions-context-receivers/resources.md", "title": "Week 03 — Resources"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/README.md", "title": "Week 04 — Coroutines: structured concurrency from first principles"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/challenges/._challenge-01-cancellation-bug-hunt.md", "title": ". challenge 01 cancellation bug hunt"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/challenges/README.md", "title": "Week 04 — Challenges"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/challenges/challenge-01-cancellation-bug-hunt.md", "title": "Challenge 1 — The cancellation bug hunt (find, explain, fix, prove)"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/exercises/._exercise-01-disassemble-a-suspend-function.md", "title": ". exercise 01 disassemble a suspend function"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/exercises/README.md", "title": "Week 04 — Exercises"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/exercises/exercise-01-disassemble-a-suspend-function.md", "title": "Exercise 1 — Disassemble a suspend function"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/homework.md", "title": "Week 04 Homework"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/lecture-notes/._01-suspend-continuations-and-the-state-machine.md", "title": ". 01 suspend continuations and the state machine"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/lecture-notes/._02-cancellation-supervision-and-exceptions.md", "title": ". 02 cancellation supervision and exceptions"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/lecture-notes/01-suspend-continuations-and-the-state-machine.md", "title": "Lecture 1 — Suspend, continuations, and the state machine: what a coroutine actually is"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/lecture-notes/02-cancellation-supervision-and-exceptions.md", "title": "Lecture 2 — Cancellation, supervision, and the exceptions that ship to users"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/mini-project/README.md", "title": "Mini-Project — A bounded, cancellable parallel downloader"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/quiz.md", "title": "Week 04 — Quiz"},
+    {"path": "curriculum/week-04-coroutines-structured-concurrency/resources.md", "title": "Week 04 — Resources"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/README.md", "title": "Week 05 — Flow, StateFlow, SharedFlow, channels"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/challenges/._challenge-01-event-replay-bug.md", "title": ". challenge 01 event replay bug"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/challenges/README.md", "title": "Week 05 — Challenges"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/challenges/challenge-01-event-replay-bug.md", "title": "Challenge 1 — The event-replay bug (reproduce, explain, fix)"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/exercises/._exercise-01-cold-is-lazy-and-per-collector.md", "title": ". exercise 01 cold is lazy and per collector"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/exercises/README.md", "title": "Week 05 — Exercises"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/exercises/exercise-01-cold-is-lazy-and-per-collector.md", "title": "Exercise 1 — Cold is lazy and per-collector"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/homework.md", "title": "Week 05 Homework"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/lecture-notes/._01-cold-flows-operators-and-backpressure.md", "title": ". 01 cold flows operators and backpressure"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/lecture-notes/._02-hot-flows-channels-and-callback-bridges.md", "title": ". 02 hot flows channels and callback bridges"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/lecture-notes/01-cold-flows-operators-and-backpressure.md", "title": "Lecture 1 — Cold flows, the operator catalogue, and backpressure"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/lecture-notes/02-hot-flows-channels-and-callback-bridges.md", "title": "Lecture 2 — Hot flows, channels, callback bridges, and the cold-vs-hot footguns"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/mini-project/README.md", "title": "Mini-Project — A reactive ticker: cold timestamps, hot deltas, threshold alerts"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/quiz.md", "title": "Week 05 — Quiz"},
+    {"path": "curriculum/week-05-flow-stateflow-sharedflow-channels/resources.md", "title": "Week 05 — Resources"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/README.md", "title": "Week 06 — The Android runtime, ART, Gradle, and an AOSP-aware mental model"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/challenges/._challenge-01-debug-a-broken-build.md", "title": ". challenge 01 debug a broken build"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/challenges/README.md", "title": "Week 06 — Challenges"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/challenges/challenge-01-debug-a-broken-build.md", "title": "Challenge 1 — Debug a broken build (four failures, four stages)"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/exercises/._exercise-01-trace-the-build.md", "title": ". exercise 01 trace the build"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/exercises/README.md", "title": "Week 06 — Exercises"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/exercises/exercise-01-trace-the-build.md", "title": "Exercise 1 — Trace the build, then crack open the APK"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/homework.md", "title": "Week 06 Homework"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/lecture-notes/._01-art-runtime-process-lifecycle.md", "title": ". 01 art runtime process lifecycle"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/lecture-notes/._02-gradle-build-pipeline-variants-r8.md", "title": ". 02 gradle build pipeline variants r8"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/lecture-notes/01-art-runtime-process-lifecycle.md", "title": "Lecture 1 — ART, the process model, and the lifecycle as history"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/lecture-notes/02-gradle-build-pipeline-variants-r8.md", "title": "Lecture 2 — The build pipeline, Gradle Kotlin DSL, variants, and R8"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/mini-project/README.md", "title": "Mini-Project — Two-module Android project: `:core` + `:app`, version catalog, `free`/`pro`"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/quiz.md", "title": "Week 06 — Quiz"},
+    {"path": "curriculum/week-06-android-runtime-art-gradle-aosp/resources.md", "title": "Week 06 — Resources"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/README.md", "title": "Week 07 — Jetpack Compose: composition, recomposition, the three phases"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/challenges/._challenge-01-recomposition-footgun-then-fix.md", "title": ". challenge 01 recomposition footgun then fix"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/challenges/README.md", "title": "Week 07 — Challenges"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/challenges/challenge-01-recomposition-footgun-then-fix.md", "title": "Challenge 1 — Plant a recomposition footgun, then fix it (with the report)"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/exercises/._exercise-01-trace-recomposition-scope.md", "title": ". exercise 01 trace recomposition scope"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/exercises/README.md", "title": "Week 07 — Exercises"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/exercises/exercise-01-trace-recomposition-scope.md", "title": "Exercise 1 — Trace a recomposition scope"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/homework.md", "title": "Week 07 Homework"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/lecture-notes/._01-declarative-ui-composition-recomposition.md", "title": ". 01 declarative ui composition recomposition"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/lecture-notes/._02-stability-skippability-compiler-report.md", "title": ". 02 stability skippability compiler report"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/lecture-notes/01-declarative-ui-composition-recomposition.md", "title": "Lecture 1 — Declarative UI: composition, recomposition, and the three phases"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/lecture-notes/02-stability-skippability-compiler-report.md", "title": "Lecture 2 — Stability, skippability, and the Compose Compiler report"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/mini-project/README.md", "title": "Mini-Project — Pomodoro: a pure-Compose timer that recomposes the minimum"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/quiz.md", "title": "Week 07 — Quiz"},
+    {"path": "curriculum/week-07-jetpack-compose-composition-recomposition/resources.md", "title": "Week 07 — Resources"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/README.md", "title": "Week 08 — State, side effects, snapshots"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/challenges/._challenge-01-effect-footgun-then-fix.md", "title": ". challenge 01 effect footgun then fix"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/challenges/README.md", "title": "Week 08 — Challenges"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/challenges/challenge-01-effect-footgun-then-fix.md", "title": "Challenge 1 — Plant the effect footguns, then fix them (with logcat)"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/exercises/._exercise-01-hoist-and-survive-rotation.md", "title": ". exercise 01 hoist and survive rotation"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/exercises/README.md", "title": "Week 08 — Exercises"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/exercises/exercise-01-hoist-and-survive-rotation.md", "title": "Exercise 1 — Hoist state, then survive rotation"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/homework.md", "title": "Week 08 Homework"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/lecture-notes/._01-snapshot-state-remember-saveable.md", "title": ". 01 snapshot state remember saveable"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/lecture-notes/._02-side-effects-derivedstate-snapshotflow.md", "title": ". 02 side effects derivedstate snapshotflow"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/lecture-notes/01-snapshot-state-remember-saveable.md", "title": "Lecture 1 — Snapshot state, `remember`, and surviving the lifecycle"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/lecture-notes/02-side-effects-derivedstate-snapshotflow.md", "title": "Lecture 2 — Side effects, `derivedStateOf`, and bridging to Flow with `snapshotFlow`"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/mini-project/README.md", "title": "Mini-Project — Search-as-you-type: debounced, cancellation-correct, rotation-proof"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/quiz.md", "title": "Week 08 — Quiz"},
+    {"path": "curriculum/week-08-state-side-effects-snapshots/resources.md", "title": "Week 08 — Resources"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/README.md", "title": "Week 09 — Layout, gestures, animation, accessibility"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/challenges/._challenge-01-inaccessible-then-fixed.md", "title": ". challenge 01 inaccessible then fixed"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/challenges/README.md", "title": "Week 09 — Challenges"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/challenges/challenge-01-inaccessible-then-fixed.md", "title": "Challenge 1 — Make an inaccessible component accessible (and prove it)"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/exercises/._exercise-01-modifier-order-and-custom-layout.md", "title": ". exercise 01 modifier order and custom layout"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/exercises/README.md", "title": "Week 09 — Exercises"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/exercises/exercise-01-modifier-order-and-custom-layout.md", "title": "Exercise 1 — Modifier order, then a custom flow layout"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/homework.md", "title": "Week 09 Homework"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/lecture-notes/._01-custom-layout-modifiers-gestures.md", "title": ". 01 custom layout modifiers gestures"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/lecture-notes/._02-animation-semantics-accessibility.md", "title": ". 02 animation semantics accessibility"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/lecture-notes/01-custom-layout-modifiers-gestures.md", "title": "Lecture 1 — Custom layout, the modifier pipeline, and gestures"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/lecture-notes/02-animation-semantics-accessibility.md", "title": "Lecture 2 — Animation, semantics, and accessibility"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/mini-project/README.md", "title": "Mini-Project — Swipe-to-dismiss card stack: elastic, springy, accessible"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/quiz.md", "title": "Week 09 — Quiz"},
+    {"path": "curriculum/week-09-layout-gestures-animation-accessibility/resources.md", "title": "Week 09 — Resources"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/README.md", "title": "Week 10 — Navigation 3 with type-safe routes"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/challenges/._challenge-01-string-route-footgun-then-typed.md", "title": ". challenge 01 string route footgun then typed"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/challenges/README.md", "title": "Week 10 — Challenges"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/challenges/challenge-01-string-route-footgun-then-typed.md", "title": "Challenge 1 — Plant a string-route footgun, then make it a compile error"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/exercises/._exercise-01-string-routes-to-typed-routes.md", "title": ". exercise 01 string routes to typed routes"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/exercises/README.md", "title": "Week 10 — Exercises"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/exercises/exercise-01-string-routes-to-typed-routes.md", "title": "Exercise 1 — String routes to typed routes"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/homework.md", "title": "Week 10 Homework"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/lecture-notes/._01-navigation-3-routes-as-types.md", "title": ". 01 navigation 3 routes as types"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/lecture-notes/._02-nested-graphs-deep-links-predictive-back.md", "title": ". 02 nested graphs deep links predictive back"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/lecture-notes/01-navigation-3-routes-as-types.md", "title": "Lecture 1 — Navigation 3: routes as types, and the back stack you own"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/lecture-notes/02-nested-graphs-deep-links-predictive-back.md", "title": "Lecture 2 — Nested graphs, per-tab back stacks, deep links, and predictive back"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/mini-project/README.md", "title": "Mini-Project — Catalog Companion: typed navigation, end to end"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/quiz.md", "title": "Week 10 — Quiz"},
+    {"path": "curriculum/week-10-navigation-3-type-safe-routes/resources.md", "title": "Week 10 — Resources"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/README.md", "title": "Week 11 — Material 3, Material You, dynamic color, edge-to-edge"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/challenges/._challenge-01-contrast-audit-then-fix.md", "title": ". challenge 01 contrast audit then fix"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/challenges/README.md", "title": "Week 11 — Challenges"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/challenges/challenge-01-contrast-audit-then-fix.md", "title": "Challenge 1 — Audit a theme for contrast, then fix the failing pair (with the math)"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/exercises/._exercise-01-theme-with-color-roles.md", "title": ". exercise 01 theme with color roles"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/exercises/README.md", "title": "Week 11 — Exercises"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/exercises/exercise-01-theme-with-color-roles.md", "title": "Exercise 1 — Theme with color roles"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/homework.md", "title": "Week 11 Homework"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/lecture-notes/._01-material-3-color-roles-and-dynamic-color.md", "title": ". 01 material 3 color roles and dynamic color"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/lecture-notes/._02-edge-to-edge-insets-dark-theme-contrast.md", "title": ". 02 edge to edge insets dark theme contrast"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/lecture-notes/01-material-3-color-roles-and-dynamic-color.md", "title": "Lecture 1 — Material 3: color as a role, and dynamic color with a fallback"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/lecture-notes/02-edge-to-edge-insets-dark-theme-contrast.md", "title": "Lecture 2 — Edge-to-edge, window insets, dark theme, and a contrast audit you can defend"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/mini-project/README.md", "title": "Mini-Project — Pocket Reader: a fully themed Material 3 app"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/quiz.md", "title": "Week 11 — Quiz"},
+    {"path": "curriculum/week-11-material-3-material-you-dynamic-color/resources.md", "title": "Week 11 — Resources"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/README.md", "title": "Week 12 — MVVM, UDF, the Now-In-Android pattern"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/challenges/._challenge-01-process-death-bug-then-fix.md", "title": ". challenge 01 process death bug then fix"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/challenges/README.md", "title": "Week 12 — Challenges"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/challenges/challenge-01-process-death-bug-then-fix.md", "title": "Challenge 1 — Plant a \"lost on process death\" bug, then fix it (and prove it)"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/exercises/._exercise-01-uistate-sealed-type.md", "title": ". exercise 01 uistate sealed type"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/exercises/README.md", "title": "Week 12 — Exercises"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/exercises/exercise-01-uistate-sealed-type.md", "title": "Exercise 1 — `UiState` as a sealed type"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/homework.md", "title": "Week 12 Homework"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/lecture-notes/._01-mvvm-udf-and-uistate.md", "title": ". 01 mvvm udf and uistate"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/lecture-notes/._02-now-in-android-layers-savedstate-process-death.md", "title": ". 02 now in android layers savedstate process death"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/lecture-notes/01-mvvm-udf-and-uistate.md", "title": "Lecture 1 — MVVM with UDF: state down, events up, one source of truth"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/lecture-notes/02-now-in-android-layers-savedstate-process-death.md", "title": "Lecture 2 — The Now-In-Android layers, deriving state, SavedStateHandle, and surviving process death"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/mini-project/README.md", "title": "Mini-Project — News Feed: a ViewModel-driven, Now-In-Android-shaped app"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/quiz.md", "title": "Week 12 — Quiz"},
+    {"path": "curriculum/week-12-mvvm-udf-now-in-android/resources.md", "title": "Week 12 — Resources"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/README.md", "title": "Week 13 — Dependency injection with Hilt (and the Dagger graph beneath)"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/challenges/._challenge-01-servicelocator-to-hilt.md", "title": ". challenge 01 servicelocator to hilt"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/challenges/README.md", "title": "Week 13 — Challenges"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/challenges/challenge-01-servicelocator-to-hilt.md", "title": "Challenge 1 — Migrate a ServiceLocator god-object to a Hilt graph"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/exercises/._exercise-01-annotate-an-app-for-hilt.md", "title": ". exercise 01 annotate an app for hilt"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/exercises/README.md", "title": "Week 13 — Exercises"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/exercises/exercise-01-annotate-an-app-for-hilt.md", "title": "Exercise 1 — Annotate a hand-wired app for Hilt"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/homework.md", "title": "Week 13 Homework"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/lecture-notes/._01-hilt-as-a-dagger-overlay.md", "title": ". 01 hilt as a dagger overlay"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/lecture-notes/._02-scopes-qualifiers-assisted-and-multi-module.md", "title": ". 02 scopes qualifiers assisted and multi module"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/lecture-notes/01-hilt-as-a-dagger-overlay.md", "title": "Lecture 1 — Hilt as a Dagger overlay: what it solves, and what it still hides"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/lecture-notes/02-scopes-qualifiers-assisted-and-multi-module.md", "title": "Lecture 2 — Scopes, qualifiers, assisted injection, and the multi-module graph"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/mini-project/README.md", "title": "Mini-Project — The four-module Hilt graph"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/quiz.md", "title": "Week 13 — Quiz"},
+    {"path": "curriculum/week-13-dependency-injection-hilt-dagger/resources.md", "title": "Week 13 — Resources"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/README.md", "title": "Week 14 — Persistence: Room, DataStore, the file system"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/challenges/._challenge-01-footgun-then-refactor.md", "title": ". challenge 01 footgun then refactor"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/challenges/README.md", "title": "Week 14 — Challenges"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/challenges/challenge-01-footgun-then-refactor.md", "title": "Challenge 1 — Plant a Room footgun, then refactor it (with numbers)"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/exercises/._exercise-01-entity-dao-survives-relaunch.md", "title": ". exercise 01 entity dao survives relaunch"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/exercises/README.md", "title": "Week 14 — Exercises"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/exercises/exercise-01-entity-dao-survives-relaunch.md", "title": "Exercise 1 — An Entity/DAO/Database that survives relaunch"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/homework.md", "title": "Week 14 Homework"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/lecture-notes/._01-room-and-the-sqlite-lineage.md", "title": ". 01 room and the sqlite lineage"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/lecture-notes/._02-datastore-filesystem-migrations-footguns.md", "title": ". 02 datastore filesystem migrations footguns"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/lecture-notes/01-room-and-the-sqlite-lineage.md", "title": "Lecture 1 — Room and the SQLite lineage: what it solves, and what it still hides"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/lecture-notes/02-datastore-filesystem-migrations-footguns.md", "title": "Lecture 2 — DataStore, the file system, migrations, and the footguns that ship to users"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/mini-project/README.md", "title": "Mini-Project — Local-first notes app: Room, Proto DataStore, scoped storage"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/quiz.md", "title": "Week 14 — Quiz"},
+    {"path": "curriculum/week-14-persistence-room-datastore-filesystem/resources.md", "title": "Week 14 — Resources"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/README.md", "title": "Week 15 — Networking: Retrofit, OkHttp, Ktor Client, gRPC"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/challenges/._challenge-01-footgun-then-refactor.md", "title": ". challenge 01 footgun then refactor"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/challenges/README.md", "title": "Week 15 — Challenges"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/challenges/challenge-01-footgun-then-refactor.md", "title": "Challenge 1 — Plant a retry-storm footgun, then refactor it (with numbers)"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/exercises/._exercise-01-retrofit-service-and-interceptors.md", "title": ". exercise 01 retrofit service and interceptors"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/exercises/README.md", "title": "Week 15 — Exercises"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/exercises/exercise-01-retrofit-service-and-interceptors.md", "title": "Exercise 1 — A Retrofit service with interceptors"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/homework.md", "title": "Week 15 Homework"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/lecture-notes/._01-retrofit-okhttp-and-the-network-result.md", "title": ". 01 retrofit okhttp and the network result"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/lecture-notes/._02-pinning-ktor-grpc-and-choosing-a-stack.md", "title": ". 02 pinning ktor grpc and choosing a stack"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/lecture-notes/01-retrofit-okhttp-and-the-network-result.md", "title": "Lecture 1 — Retrofit over OkHttp, and modelling every failure as a type"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/lecture-notes/02-pinning-ktor-grpc-and-choosing-a-stack.md", "title": "Lecture 2 — Certificate pinning, Ktor, gRPC, and choosing a stack"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/mini-project/README.md", "title": "Mini-Project — The weather client, implemented twice (Retrofit and Ktor)"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/quiz.md", "title": "Week 15 — Quiz"},
+    {"path": "curriculum/week-15-networking-retrofit-okhttp-ktor-grpc/resources.md", "title": "Week 15 — Resources"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/README.md", "title": "Week 16 — Background work: WorkManager, foreground services, exact alarms"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/challenges/._challenge-01-why-did-my-work-not-run.md", "title": ". challenge 01 why did my work not run"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/challenges/README.md", "title": "Week 16 — Challenges"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/challenges/challenge-01-why-did-my-work-not-run.md", "title": "Challenge 1 — \"Why did my work not run?\" (four scenarios, four causes)"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/exercises/._exercise-01-constraints-and-backoff.md", "title": ". exercise 01 constraints and backoff"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/exercises/README.md", "title": "Week 16 — Exercises"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/exercises/exercise-01-constraints-and-backoff.md", "title": "Exercise 1 — Constraints and backoff, made visible"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/homework.md", "title": "Week 16 Homework"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/lecture-notes/._01-workmanager-constraints-backoff.md", "title": ". 01 workmanager constraints backoff"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/lecture-notes/._02-foreground-services-exact-alarms-doze.md", "title": ". 02 foreground services exact alarms doze"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/lecture-notes/01-workmanager-constraints-backoff.md", "title": "Lecture 1 — WorkManager: constraints, backoff, and \"why your work did not run\""},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/lecture-notes/02-foreground-services-exact-alarms-doze.md", "title": "Lecture 2 — Foreground services, exact alarms, Doze, and the \"which tool\" decision"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/mini-project/README.md", "title": "Mini-Project — An offline-first sync engine"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/quiz.md", "title": "Week 16 — Quiz"},
+    {"path": "curriculum/week-16-background-work-workmanager-foreground-services/resources.md", "title": "Week 16 — Resources"},
+    {"path": "curriculum/week-17-testing-across-every-layer/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-testing-across-every-layer/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-17-testing-across-every-layer/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-17-testing-across-every-layer/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-17-testing-across-every-layer/README.md", "title": "Week 17 — Testing across every layer"},
+    {"path": "curriculum/week-17-testing-across-every-layer/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-testing-across-every-layer/challenges/._challenge-01-flaky-test-autopsy.md", "title": ". challenge 01 flaky test autopsy"},
+    {"path": "curriculum/week-17-testing-across-every-layer/challenges/README.md", "title": "Week 17 — Challenges"},
+    {"path": "curriculum/week-17-testing-across-every-layer/challenges/challenge-01-flaky-test-autopsy.md", "title": "Challenge 1 — Flaky-test autopsy (find the non-determinism, kill it)"},
+    {"path": "curriculum/week-17-testing-across-every-layer/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-testing-across-every-layer/exercises/._exercise-01-pick-the-right-test.md", "title": ". exercise 01 pick the right test"},
+    {"path": "curriculum/week-17-testing-across-every-layer/exercises/README.md", "title": "Week 17 — Exercises"},
+    {"path": "curriculum/week-17-testing-across-every-layer/exercises/exercise-01-pick-the-right-test.md", "title": "Exercise 1 — Pick the right test"},
+    {"path": "curriculum/week-17-testing-across-every-layer/homework.md", "title": "Week 17 Homework"},
+    {"path": "curriculum/week-17-testing-across-every-layer/lecture-notes/._01-the-testing-pyramid-unit-flow-mockk.md", "title": ". 01 the testing pyramid unit flow mockk"},
+    {"path": "curriculum/week-17-testing-across-every-layer/lecture-notes/._02-robolectric-compose-ui-screenshot-espresso.md", "title": ". 02 robolectric compose ui screenshot espresso"},
+    {"path": "curriculum/week-17-testing-across-every-layer/lecture-notes/01-the-testing-pyramid-unit-flow-mockk.md", "title": "Lecture 1 — The testing pyramid, JUnit 5, Flow, and MockK"},
+    {"path": "curriculum/week-17-testing-across-every-layer/lecture-notes/02-robolectric-compose-ui-screenshot-espresso.md", "title": "Lecture 2 — Robolectric, Compose UI test, screenshots, and Espresso"},
+    {"path": "curriculum/week-17-testing-across-every-layer/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-17-testing-across-every-layer/mini-project/README.md", "title": "Mini-Project — `:feature-checkout`, tested at every layer"},
+    {"path": "curriculum/week-17-testing-across-every-layer/quiz.md", "title": "Week 17 — Quiz"},
+    {"path": "curriculum/week-17-testing-across-every-layer/resources.md", "title": "Week 17 — Resources"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/README.md", "title": "Week 18 — Performance: macrobenchmark, Baseline Profiles, R8"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/challenges/._challenge-01-baseline-profile-end-to-end.md", "title": ". challenge 01 baseline profile end to end"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/challenges/README.md", "title": "Week 18 — Challenges"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/challenges/challenge-01-baseline-profile-end-to-end.md", "title": "Challenge 1 — Baseline Profile, end to end (cut cold start ≥20%, prove it)"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/exercises/._exercise-01-read-a-macrobenchmark-report.md", "title": ". exercise 01 read a macrobenchmark report"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/exercises/README.md", "title": "Week 18 — Exercises"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/exercises/exercise-01-read-a-macrobenchmark-report.md", "title": "Exercise 1 — Read a macrobenchmark report"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/homework.md", "title": "Week 18 Homework"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/lecture-notes/._01-cold-start-macrobenchmark-baseline-profiles.md", "title": ". 01 cold start macrobenchmark baseline profiles"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/lecture-notes/._02-r8-keep-rules-startup-strictmode.md", "title": ". 02 r8 keep rules startup strictmode"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/lecture-notes/01-cold-start-macrobenchmark-baseline-profiles.md", "title": "Lecture 1 — Cold start, Macrobenchmark, and Baseline Profiles"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/lecture-notes/02-r8-keep-rules-startup-strictmode.md", "title": "Lecture 2 — R8, keep rules, App Startup, and StrictMode"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/mini-project/README.md", "title": "Mini-Project — Profile the reader app's cold start, prove the win"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/quiz.md", "title": "Week 18 — Quiz"},
+    {"path": "curriculum/week-18-performance-macrobenchmark-baseline-profiles-r8/resources.md", "title": "Week 18 — Resources"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/README.md", "title": "Week 19 — Kotlin Multiplatform overview, Wear OS introduction"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/challenges/._challenge-01-shared-core-two-platforms.md", "title": ". challenge 01 shared core two platforms"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/challenges/README.md", "title": "Week 19 — Challenges"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/challenges/challenge-01-shared-core-two-platforms.md", "title": "Challenge 1 — A shared core that compiles for two platforms (prove it)"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/exercises/._exercise-01-what-to-share.md", "title": ". exercise 01 what to share"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/exercises/README.md", "title": "Week 19 — Exercises"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/exercises/exercise-01-what-to-share.md", "title": "Exercise 1 — What to share"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/homework.md", "title": "Week 19 Homework"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/lecture-notes/._01-kotlin-multiplatform-shared-core.md", "title": ". 01 kotlin multiplatform shared core"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/lecture-notes/._02-compose-for-wear-os-intro.md", "title": ". 02 compose for wear os intro"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/lecture-notes/01-kotlin-multiplatform-shared-core.md", "title": "Lecture 1 — Kotlin Multiplatform: the shared core"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/lecture-notes/02-compose-for-wear-os-intro.md", "title": "Lecture 2 — Compose for Wear OS: the wrist is a different screen"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/mini-project/README.md", "title": "Mini-Project — `:shared-core` KMP + Android consumer + a Wear forecast screen"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/quiz.md", "title": "Week 19 — Quiz"},
+    {"path": "curriculum/week-19-kotlin-multiplatform-wear-os-intro/resources.md", "title": "Week 19 — Resources"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/README.md", "title": "Week 20 — Multi-form-factor: foldables, Wear OS deep, TV and Automotive overview"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/challenges/._challenge-01-one-codebase-three-form-factors.md", "title": ". challenge 01 one codebase three form factors"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/challenges/README.md", "title": "Week 20 — Challenges"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/challenges/challenge-01-one-codebase-three-form-factors.md", "title": "Challenge 1 — One codebase, three form factors"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/exercises/._exercise-01-window-size-class-adaptive-layout.md", "title": ". exercise 01 window size class adaptive layout"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/exercises/README.md", "title": "Week 20 — Exercises"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/exercises/exercise-01-window-size-class-adaptive-layout.md", "title": "Exercise 1 — Window-size-class adaptive layout"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/homework.md", "title": "Week 20 Homework"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/lecture-notes/._01-adaptive-layouts-window-size-classes-foldables.md", "title": ". 01 adaptive layouts window size classes foldables"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/lecture-notes/._02-wear-os-deep-tiles-complications-tv-automotive.md", "title": ". 02 wear os deep tiles complications tv automotive"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/lecture-notes/01-adaptive-layouts-window-size-classes-foldables.md", "title": "Lecture 1 — Adaptive layouts: window size classes and foldables"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/lecture-notes/02-wear-os-deep-tiles-complications-tv-automotive.md", "title": "Lecture 2 — Wear OS deep, and the TV / Automotive boundary"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/mini-project/README.md", "title": "Mini-Project — Wear OS weather companion: tile, complication, ongoing activity"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/quiz.md", "title": "Week 20 — Quiz"},
+    {"path": "curriculum/week-20-multi-form-factor-foldables-wear-tv-automotive/resources.md", "title": "Week 20 — Resources"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/README.md", "title": "Week 21 — CI/CD: GitHub Actions, fastlane, Play Console API"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/challenges/._challenge-01-tag-to-internal-track-pipeline.md", "title": ". challenge 01 tag to internal track pipeline"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/challenges/README.md", "title": "Week 21 — Challenges"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/challenges/challenge-01-tag-to-internal-track-pipeline.md", "title": "Challenge 1 — The tag-to-internal-track pipeline"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/exercises/._exercise-01-android-ci-workflow.md", "title": ". exercise 01 android ci workflow"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/exercises/README.md", "title": "Week 21 — Exercises"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/exercises/exercise-01-android-ci-workflow.md", "title": "Exercise 1 — An Android CI workflow with caching"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/homework.md", "title": "Week 21 Homework"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/lecture-notes/._01-github-actions-caching-signing-secrets.md", "title": ". 01 github actions caching signing secrets"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/lecture-notes/._02-fastlane-play-console-api-tracks-rollout.md", "title": ". 02 fastlane play console api tracks rollout"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/lecture-notes/01-github-actions-caching-signing-secrets.md", "title": "Lecture 1 — GitHub Actions for Android: caching, signing, secrets"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/lecture-notes/02-fastlane-play-console-api-tracks-rollout.md", "title": "Lecture 2 — fastlane, the Play Console API, tracks, and staged rollout"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/mini-project/README.md", "title": "Mini-Project — The release workflow: tag to internal track"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/quiz.md", "title": "Week 21 — Quiz"},
+    {"path": "curriculum/week-21-cicd-github-actions-fastlane-play-console/resources.md", "title": "Week 21 — Resources"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/README.md", "title": "Week 22 — Security: Keystore, EncryptedSharedPreferences, certificate pinning, Play Integrity"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/challenges/._challenge-01-threat-model-and-harden.md", "title": ". challenge 01 threat model and harden"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/challenges/README.md", "title": "Week 22 — Challenges"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/challenges/challenge-01-threat-model-and-harden.md", "title": "Challenge 1 — Threat-model and harden a feature"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/exercises/._exercise-01-encrypt-a-token-keystore.md", "title": ". exercise 01 encrypt a token keystore"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/exercises/README.md", "title": "Week 22 — Exercises"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/exercises/exercise-01-encrypt-a-token-keystore.md", "title": "Exercise 1 — Encrypt a token with the Keystore"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/homework.md", "title": "Week 22 Homework"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/lecture-notes/._01-keystore-encrypted-storage-data-at-rest.md", "title": ". 01 keystore encrypted storage data at rest"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/lecture-notes/._02-certificate-pinning-network-security-play-integrity.md", "title": ". 02 certificate pinning network security play integrity"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/lecture-notes/01-keystore-encrypted-storage-data-at-rest.md", "title": "Lecture 1 — The Keystore, encrypted storage, and the data-at-rest threat model"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/lecture-notes/02-certificate-pinning-network-security-play-integrity.md", "title": "Lecture 2 — Certificate pinning, network security config, and Play Integrity"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/mini-project/README.md", "title": "Mini-Project — Harden three apps: encrypt, pin, attest"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/quiz.md", "title": "Week 22 — Quiz"},
+    {"path": "curriculum/week-22-security-keystore-encryptedsharedprefs-pinning-play-integrity/resources.md", "title": "Week 22 — Resources"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/README.md", "title": "Week 23 — Capstone build week: Field-Force Companion"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/challenges/._challenge-01-lock-the-release-candidate.md", "title": ". challenge 01 lock the release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/challenges/README.md", "title": "Week 23 — Challenges"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/challenges/challenge-01-lock-the-release-candidate.md", "title": "Challenge 1 — Lock the release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/exercises/._exercise-01-module-graph-and-dependency-directions.md", "title": ". exercise 01 module graph and dependency directions"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/exercises/README.md", "title": "Week 23 — Exercises"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/exercises/exercise-01-module-graph-and-dependency-directions.md", "title": "Exercise 1 — The module graph and dependency directions"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/homework.md", "title": "Week 23 Homework"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/lecture-notes/._01-from-lab-modules-to-a-release-candidate.md", "title": ". 01 from lab modules to a release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/lecture-notes/._02-wiring-the-form-factors-and-the-release-candidate.md", "title": ". 02 wiring the form factors and the release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/lecture-notes/01-from-lab-modules-to-a-release-candidate.md", "title": "Lecture 1 — From lab modules to a release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/lecture-notes/02-wiring-the-form-factors-and-the-release-candidate.md", "title": "Lecture 2 — Wiring the form factors and the release candidate"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/mini-project/README.md", "title": "Mini-Project — The Capstone Build: the Field-Force Companion to a locked RC"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/quiz.md", "title": "Week 23 — Quiz"},
+    {"path": "curriculum/week-23-capstone-build-field-force-companion/resources.md", "title": "Week 23 — Resources"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/README.md", "title": "Week 24 — Capstone polish, chaos drill, Play submission, interview prep"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/challenges/._challenge-01-ship-survive-and-interview.md", "title": ". challenge 01 ship survive and interview"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/challenges/README.md", "title": "Week 24 — Challenges"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/challenges/challenge-01-ship-survive-and-interview.md", "title": "Challenge 1 — Ship, survive, and interview"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/exercises/._exercise-01-play-review-readiness-audit.md", "title": ". exercise 01 play review readiness audit"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/exercises/README.md", "title": "Week 24 — Exercises"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/exercises/exercise-01-play-review-readiness-audit.md", "title": "Exercise 1 — Play review readiness audit"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/homework.md", "title": "Week 24 Homework"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/lecture-notes/._01-play-submission-and-shipping-to-the-closed-track.md", "title": ". 01 play submission and shipping to the closed track"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/lecture-notes/._02-the-chaos-drills-the-postmortem-and-the-interview.md", "title": ". 02 the chaos drills the postmortem and the interview"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/lecture-notes/01-play-submission-and-shipping-to-the-closed-track.md", "title": "Lecture 1 — Play submission and shipping to the closed track"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/lecture-notes/02-the-chaos-drills-the-postmortem-and-the-interview.md", "title": "Lecture 2 — The chaos drills, the postmortem, and the interview"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/mini-project/README.md", "title": "Mini-Project — The Capstone Delivery: Ship, Survive, Present, Interview"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/quiz.md", "title": "Week 24 — Quiz"},
+    {"path": "curriculum/week-24-capstone-polish-chaos-drill-play-submission-interview/resources.md", "title": "Week 24 — Resources"}
   ]
 }
